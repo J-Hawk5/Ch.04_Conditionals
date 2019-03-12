@@ -18,3 +18,21 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+number=int(input("Enter a number: "))
+if number>0:
+    print("Positive")
+elif number<0:
+    print("Negative")
+else:
+    print("Zero")
+
+if number>=-100 and number<=100:
+    print("Inclusive")
+else:
+    print("Exclusive")
+
+odd_even=number%2
+if odd_even==1:
+    print("Odd")
+else:
+    print("Even")
